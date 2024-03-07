@@ -4,22 +4,18 @@
     "homepage": "Iobit.com",
     "license": "Freeware"
 
-"architecture": {
-    "64bit": {
-        "url": [
-            "https://github.com/veilkev/veil-ionstall/install/install.zip"
-        ],
-        "bin": "IObit Uninstaller 13.0.0.13.exe",
-        "shortcuts": [
-            [
-                "IObitUninstaler.exe",
-                "IOBit Uninstaller"
-            ]
-        ],
-    } // architecture ends
-},
-    "extract_to": [
-        "C:\\Users\\Public\\",
-        "Installers"
-    ]
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/veilkev/veil-ionstall/install/install.zip"
+            ],
+            "bin": "IObit Uninstaller 13.0.0.13.exe",
+            "shortcuts": [
+                [
+                    "IObitUninstaler.exe",
+                    "IOBit Uninstaller"
+                ]
+            ],
+        }
+    }
 } 
