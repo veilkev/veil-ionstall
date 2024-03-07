@@ -1,28 +1,22 @@
 {
-{
     "version": "13.0.0.13",
     "description": "Premium build of IOBit Uninstaller",
     "homepage": "Iobit.com",
     "license": "Freeware"
-},
+
 "architecture": {
     "64bit": {
         "url": [
             "https://github.com/veilkev/veil-ionstall/install/install.zip"
         ],
-        "bin": [
-            [
-                "IObit Uninstaller 13.0.0.13.exe",
-                "IObit Uninstaller"
-            ]
-         ],
+        "bin": "IObit Uninstaller 13.0.0.13.exe",
         "shortcuts": [
             [
                 "IObitUninstaler.exe",
                 "IOBit Uninstaller"
             ]
         ],
-    } 
+    } // architecture ends
 },
     "extract_to": [
         "C:\\Users\\Public\\",
