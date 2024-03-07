@@ -6,7 +6,7 @@
 
     "architecture": {
         "64bit": {
-            "url": "https:/github.com/veilkev/veil-ionstall/install/install.exe",
+            "url": "https://raw.githubusercontent.com/veilkev/veil-ionstall/master/install/install.exe",
             "hash": "3769c066004db9b3551fccdca1d578290d4a7fa095715ac0d943a61feb56f785"
         },
     "bin": "IObit Uninstaller 13.0.0.13.exe",
