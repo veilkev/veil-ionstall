@@ -1,9 +1,31 @@
 {
+{
     "version": "13.0.0.13",
     "description": "Premium build of IOBit Uninstaller",
     "homepage": "Iobit.com",
-    "license": "Freeware",
-    "url": "https://github.com/veilkev/veil-ionstall/install/install.zip",
-    "extract_dir": "C:\\Program Files\\IOBit\\Uninstaller",
-    "bin": "cowsay.ps1"
-}
+    "license": "Freeware"
+},
+"architecture": {
+    "64bit": {
+        "url": [
+            "https://github.com/veilkev/veil-ionstall/install/install.zip"
+        ],
+        "bin": [
+            [
+                "IObit Uninstaller 13.0.0.13.exe",
+                "IObit Uninstaller"
+            ]
+         ],
+        "shortcuts": [
+            [
+                "IObitUninstaler.exe",
+                "IOBit Uninstaller"
+            ]
+        ],
+    } 
+},
+    "extract_to": [
+        "C:\\Users\\Public\\",
+        "Installers"
+    ]
+} 
