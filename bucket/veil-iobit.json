@@ -1,12 +1,12 @@
 {
     "version": "13.0",
     "description": "Premium build of IOBit Uninstaller",
-    "homepage": "https://filedn.com/",
+    "homepage": "https://github.com/veilkev/",
     "license": "Freeware",
 
     "architecture": {
         "64bit": {
-            "url": "https://filedn.com/lodxl4l1fMg0Ew4XzRLUNa8/ioinstall.exe"
+            "url": "https://s4nctum.s3.us-east-005.backblazeb2.com/%5B6%5D+Shared/ioinstall.exe"
         },
     "bin": "ioinstall.exe",
     "shortcuts": [
