@@ -9,6 +9,15 @@
             "url": "https://nurmengard.s3.us-east-005.backblazeb2.com/ioinstall.exe",
             "hash": "3769c066004db9b3551fccdca1d578290d4a7fa095715ac0d943a61feb56f785"
         },
+        "extract_dir": "core",
+        "post_install": [
+        "ioinstall -CreateProfile \"Scoop $persist_dir\\profile\"",
+        "$Addition = \"$persist_dir\\addition\"",
+        "if (Test-Path $Addition) {",
+        "  info 'Copying additional items...'",
+        "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
+        "}"
+    ],
     "bin": "ioinstall.exe",
     "shortcuts": [
         [
