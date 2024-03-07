@@ -1,6 +1,6 @@
 {
     "version": "13.0.0.13",
     "url": "https://github.com/veilkev/veil-ionstall/install/install.zip",
-    "extract_dir": "C:\Users\IOBit\Uninstaller",
+    "extract_dir": "C:\\Program Files\\IOBit\\Uninstaller",
     "bin": "cowsay.ps1"
 }
