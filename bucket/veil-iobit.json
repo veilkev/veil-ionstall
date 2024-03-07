@@ -2,7 +2,7 @@
     "version": "13.0.0.13",
     "description": "Premium build of IOBit Uninstaller",
     "homepage": "Iobit.com",
-    "license": "Freeware"
+    "license": "Freeware",
 
     "architecture": {
         "64bit": {
