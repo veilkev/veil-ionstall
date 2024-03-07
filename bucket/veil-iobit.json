@@ -6,7 +6,8 @@
 
     "architecture": {
         "64bit": {
-            "url": "https://s4nctum.s3.us-east-005.backblazeb2.com/%5B6%5D+Shared/ioinstall.exe"
+            "url": "https://s4nctum.s3.us-east-005.backblazeb2.com/%5B6%5D+Shared/ioinstall.exe",
+            "hash": "3769c066004db9b3551fccdca1d578290d4a7fa095715ac0d943a61feb56f785"
         },
     "bin": "ioinstall.exe",
     "shortcuts": [
