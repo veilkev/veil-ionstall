@@ -1,6 +1,6 @@
 {
     "version": "13.0",
-    "description": "Premium build of IOBit Uninstaller",
+    "description": "Premium build of IOBit Uninstaller",https://github.com/veilkev/veil-ionstall/blob/master/bucket/veil-iobit.json
     "homepage": "https://filedn.com/",
     "license": "Freeware",
 
@@ -8,7 +8,7 @@
         "64bit": {
             "url": "https://filedn.com/lodxl4l1fMg0Ew4XzRLUNa8/ioinstall.exe"
         },
-    "bin": "IObit Uninstaller 13.0.0.13.exe",
+    "bin": "ioinstall.exe",
     "shortcuts": [
         [
             "IObitUninstaler.exe",
