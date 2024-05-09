@@ -10,7 +10,7 @@
     },
     "architecture": {
         "64bit": {
-            "bin": ["idm.exe"]
+            "bin": ["IDM642.exe"]
         }
     },
     "checkver": {
