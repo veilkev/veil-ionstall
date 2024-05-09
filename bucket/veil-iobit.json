@@ -5,9 +5,10 @@
     "license": "Proprietary",
     "url": "https://f005.backblazeb2.com/file/Bitstream/IDM642.exe",
     "hash": "sha256:3d63c703650df3770b7d762681629107b1c50dea97c60a3954e000cb4c957ebc",
-    "installer": {
-    "script": "Start-Process -FilePath \"$dir\\IDM642.exe\" -ArgumentList '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART' -NoNewWindow -Wait -Verb RunAs"
-    },
+   "installer": {
+    "script": "Start-Process -FilePath \"$dir\\IDM642.exe\" -ArgumentList '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART' -Wait -NoNewWindow"
+},
+
 
     "architecture": {
         "64bit": {
