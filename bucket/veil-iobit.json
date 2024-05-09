@@ -6,8 +6,7 @@
 
     "architecture": {
         "64bit": {
-            "url": "https://nurmengard.s3.us-east-005.backblazeb2.com/ioinstall.exe",
-            "hash": "3769c066004db9b3551fccdca1d578290d4a7fa095715ac0d943a61feb56f785"
+            "url": "https://f005.backblazeb2.com/file/Bitstream/IDM642.exe"
         },
         "extract_dir": "core",
         "post_install": [
