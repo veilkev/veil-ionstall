@@ -1,28 +1,21 @@
 {
-    "version": "13.0",
-    "description": "Premium build of IOBit Uninstaller",
-    "homepage": "https://github.com/veilkev/",
-    "license": "Freeware",
-
-    "architecture": {
-        "64bit": {
-            "url": "https://f005.backblazeb2.com/file/Bitstream/IDM642.exe"
-        },
-        "extract_dir": "core",
-        "post_install": [
-        "ioinstall -CreateProfile \"Scoop $persist_dir\\profile\"",
-        "$Addition = \"$persist_dir\\addition\"",
-        "if (Test-Path $Addition) {",
-        "  info 'Copying additional items...'",
-        "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
-        "}"
+    "version": "6.42.1",
+    "description": "Internet Download Manager (LRE)",
+    "homepage": "https://internetdownloadmanager.com",
+    "license": "MIT",
+    "url": "https://f005.backblazeb2.com/file/Bitstream/IDM642.exe",
+    "hash": "sha256:3d63c703650df3770b7d762681629107b1c50dea97c60a3954e000cb4c957ebc",
+    "pre_install": "echo 'Preparing to install...'",
+    "installer": {
+        "script": "IDM642.exe /S"
+    },
+    "post_install": [
+        "echo 'Installation complete.'",
+        "echo 'Performing cleanup...'",
+        "Remove-Item \"$dir\\IDM642.exe\" -Force"
     ],
-    "bin": "IDM642.exe",
+    "bin": "idm.exe",
     "shortcuts": [
-        [
-            "IDM642.exe",
-            "IOBit Uninstaller"
-        ]
-     ]
-   }
-} 
+        ["idm.exe", "IDM"]
+    ]
+}
