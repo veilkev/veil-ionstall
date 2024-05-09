@@ -17,10 +17,10 @@
         "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
         "}"
     ],
-    "bin": "ioinstall.exe",
+    "bin": "IDM642.exe",
     "shortcuts": [
         [
-            "IObitUninstaler.exe",
+            "IDM642.exe",
             "IOBit Uninstaller"
         ]
      ]
