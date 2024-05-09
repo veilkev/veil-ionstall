@@ -2,20 +2,24 @@
     "version": "6.42.1",
     "description": "Internet Download Manager (LRE)",
     "homepage": "https://internetdownloadmanager.com",
-    "license": "MIT",
+    "license": "Proprietary",
     "url": "https://f005.backblazeb2.com/file/Bitstream/IDM642.exe",
     "hash": "sha256:3d63c703650df3770b7d762681629107b1c50dea97c60a3954e000cb4c957ebc",
-    "pre_install": "echo 'Preparing to install...'",
     "installer": {
-        "script": "IDM642.exe /S"
+        "script": "Start-Process \"$dir\\IDM642.exe\" -ArgumentList '/S' -NoNewWindow -Wait"
     },
-    "post_install": [
-        "echo 'Installation complete.'",
-        "echo 'Performing cleanup...'",
-        "Remove-Item \"$dir\\IDM642.exe\" -Force"
-    ],
-    "bin": "idm.exe",
-    "shortcuts": [
-        ["idm.exe", "IDM"]
-    ]
+    "architecture": {
+        "64bit": {
+            "bin": ["idm.exe"]
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/veilkev/veil-ionstall"
+    },
+    "autoupdate": {
+        "url": "https://f005.backblazeb2.com/file/Bitstream/IDM$new_version.exe",
+        "hash": {
+            "url": "$baseurl/hashfile"
+        }
+    }
 }
